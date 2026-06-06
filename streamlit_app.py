@@ -106,7 +106,7 @@ with tab1:
     st.markdown("아래 오디오를 재생하여 문장을 들으세요.")
     
     # 오디오 파일 경로 (필요시 수정해주세요)
-    audio_file_1 = "Audio1.wav"  # 실제 파일 경로로 변경: "path/to/your/audio1.mp3"
+    audio_file_1 = "Audio1.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio1.mp3"
     try:
         st.audio(audio_file_1)
     except:
