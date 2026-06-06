@@ -106,7 +106,7 @@ with tab1:
     st.markdown("아래 오디오를 재생하여 문장을 들으세요.")
     
     # 오디오 파일 경로 (필요시 수정해주세요)
-    audio_file_1 = "Audio1.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio1.mp3"
+    audio_file_1 = "자리.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio1.mp3"
     try:
         st.audio(audio_file_1)
     except:
@@ -130,7 +130,7 @@ with tab1:
     st.markdown("### ✏️ 3단계: 똑같은지 확인하세요")
     with st.expander("정답 확인하기 👈 터치하세요"):
         # 정답 문장 (필요시 수정해주세요)
-        answer_1 = "안녕하세요. 저는 학생입니다."  # 정답 문장 수정: "여기에 정답을 입력하세요"
+        answer_1 = "이 자리에 앉아도 돼요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
         st.info(f"**정답:** {answer_1}")
         
         # 입력 결과 비교
@@ -154,7 +154,7 @@ with tab2:
     st.markdown("아래 오디오를 재생하여 문장을 들으세요.")
     
     # 오디오 파일 경로 (필요시 수정해주세요)
-    audio_file_2 = "오디오2.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio2.mp3"
+    audio_file_2 = "사진.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio2.mp3"
     try:
         st.audio(audio_file_2)
     except:
@@ -178,7 +178,7 @@ with tab2:
     st.markdown("### ✏️ 3단계: 똑같은지 확인하세요")
     with st.expander("정답 확인하기 👈 터치하세요"):
         # 정답 문장 (필요시 수정해주세요)
-        answer_2 = "오늘 날씨가 정말 좋네요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
+        answer_2 = "여기에서 사진을 찍어 주세요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
         st.info(f"**정답:** {answer_2}")
         
         # 입력 결과 비교
@@ -202,7 +202,7 @@ with tab3:
     st.markdown("아래 오디오를 재생하여 문장을 들으세요.")
     
     # 오디오 파일 경로 (필요시 수정해주세요)
-    audio_file_3 = "오디오3.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio3.mp3"
+    audio_file_3 = "공원.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio3.mp3"
     try:
         st.audio(audio_file_3)
     except:
@@ -226,7 +226,7 @@ with tab3:
     st.markdown("### ✏️ 3단계: 똑같은지 확인하세요")
     with st.expander("정답 확인하기 👈 터치하세요"):
         # 정답 문장 (필요시 수정해주세요)
-        answer_3 = "한국어는 배우기 쉬워요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
+        answer_3 = "공원에서 자전거를 타도 돼요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
         st.info(f"**정답:** {answer_3}")
         
         # 입력 결과 비교
