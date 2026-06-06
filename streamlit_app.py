@@ -106,7 +106,7 @@ with tab1:
     st.markdown("아래 오디오를 재생하여 문장을 들으세요.")
     
     # 오디오 파일 경로 (필요시 수정해주세요)
-    audio_file_1 = "자리.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio1.mp3"
+    audio_file_1 = "Audio1.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio1.mp3"
     try:
         st.audio(audio_file_1)
     except:
@@ -139,7 +139,7 @@ with tab1:
             if user_input_1.strip().lower() == answer_1.strip().lower():
                 st.success("✅ 완벽합니다! 정답입니다!")
             else:
-                st.warning("⏰ 다시 한 번 말해보세요!")
+                st.warning("⏰ 다시 한 번 도전하세요!")
 
 st.markdown("<div style='margin: 30px 0;'></div>", unsafe_allow_html=True)
 
@@ -154,7 +154,7 @@ with tab2:
     st.markdown("아래 오디오를 재생하여 문장을 들으세요.")
     
     # 오디오 파일 경로 (필요시 수정해주세요)
-    audio_file_2 = "사진.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio2.mp3"
+    audio_file_2 = "Audio2.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio2.mp3"
     try:
         st.audio(audio_file_2)
     except:
@@ -187,7 +187,7 @@ with tab2:
             if user_input_2.strip().lower() == answer_2.strip().lower():
                 st.success("✅ 완벽합니다! 정답입니다!")
             else:
-                st.warning("⏰ 다시 한 번 말해보세요!")
+                st.warning("⏰ 다시 한 번 도전하세요!")
 
 st.markdown("<div style='margin: 30px 0;'></div>", unsafe_allow_html=True)
 
@@ -202,7 +202,7 @@ with tab3:
     st.markdown("아래 오디오를 재생하여 문장을 들으세요.")
     
     # 오디오 파일 경로 (필요시 수정해주세요)
-    audio_file_3 = "공원.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio3.mp3"
+    audio_file_3 = "Audio3.mp3"  # 실제 파일 경로로 변경: "path/to/your/audio3.mp3"
     try:
         st.audio(audio_file_3)
     except:
@@ -235,7 +235,7 @@ with tab3:
             if user_input_3.strip().lower() == answer_3.strip().lower():
                 st.success("✅ 완벽합니다! 정답입니다!")
             else:
-                st.warning("⏰ 다시 한 번 말해보세요!")
+                st.warning("⏰ 다시 한 번 도전하세요!")
 
 st.markdown("<hr style='margin: 30px 0;'>", unsafe_allow_html=True)
 
