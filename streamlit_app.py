@@ -131,12 +131,18 @@ with tab1:
     with st.expander("정답 확인하기 👈 터치하세요"):
         # 정답 문장 (필요시 수정해주세요)
         answer_1 = "이 자리에 앉아도 돼요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
+        accepted_answers_1 = [
+            "이 자리에 앉아도 돼요.",
+            "이 자리에 앉아도 돼요",
+            "이 자리에 앉아도돼요.",
+            "이 자리에 앉아도돼요"
+        ]
         st.info(f"**정답:** {answer_1}")
         
         # 입력 결과 비교
         if user_input_1:
             st.write(f"**당신의 입력:** {user_input_1}")
-            if user_input_1.strip().lower() == answer_1.strip().lower():
+            if user_input_1.strip().lower() in [ans.lower() for ans in accepted_answers_1]:
                 st.success("✅ 완벽합니다! 정답입니다!")
             else:
                 st.warning("⏰ 다시 한 번 도전하세요!")
@@ -179,12 +185,18 @@ with tab2:
     with st.expander("정답 확인하기 👈 터치하세요"):
         # 정답 문장 (필요시 수정해주세요)
         answer_2 = "여기에서 사진을 찍어 주세요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
+        accepted_answers_2 = [
+            "여기에서 사진을 찍어 주세요.",
+            "여기에서 사진을 찍어 주세요",
+            "여기에서 사진을 찍어주세요.",
+            "여기에서 사진을 찍어주세요"
+        ]
         st.info(f"**정답:** {answer_2}")
         
         # 입력 결과 비교
         if user_input_2:
             st.write(f"**당신의 입력:** {user_input_2}")
-            if user_input_2.strip().lower() == answer_2.strip().lower():
+            if user_input_2.strip().lower() in [ans.lower() for ans in accepted_answers_2]:
                 st.success("✅ 완벽합니다! 정답입니다!")
             else:
                 st.warning("⏰ 다시 한 번 도전하세요!")
@@ -227,12 +239,18 @@ with tab3:
     with st.expander("정답 확인하기 👈 터치하세요"):
         # 정답 문장 (필요시 수정해주세요)
         answer_3 = "공원에서 자전거를 타도 돼요."  # 정답 문장 수정: "여기에 정답을 입력하세요"
+        accepted_answers_3 = [
+            "공원에서 자전거를 타도 돼요.",
+            "공원에서 자전거를 타도돼요.",
+            "공원에서 자전거를 타도 돼요",
+            "공원에서 자전거를 타도돼요"
+        ]
         st.info(f"**정답:** {answer_3}")
         
         # 입력 결과 비교
         if user_input_3:
             st.write(f"**당신의 입력:** {user_input_3}")
-            if user_input_3.strip().lower() == answer_3.strip().lower():
+            if user_input_3.strip().lower() in [ans.lower() for ans in accepted_answers_3]:
                 st.success("✅ 완벽합니다! 정답입니다!")
             else:
                 st.warning("⏰ 다시 한 번 도전하세요!")
